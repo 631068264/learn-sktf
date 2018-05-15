@@ -27,3 +27,9 @@ def plot_learning_curves(model, X, y):
     plt.plot(np.sqrt(test_errors), "b", linewidth=3, label="test")
     plt.legend()
     plt.show()
+
+
+def image_path(fig_id):
+    import os
+    PROJECT_ROOT_DIR = '.'
+    return os.path.join(PROJECT_ROOT_DIR, "images", fig_id)
