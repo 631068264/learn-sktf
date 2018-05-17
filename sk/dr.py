@@ -93,7 +93,7 @@ if False:
     print(grid_search.best_estimator_)
     print(grid_search.best_params_)
 
-if True:
+if False:
     from sklearn.manifold import LocallyLinearEmbedding
     from matplotlib import pyplot as plt
 

@@ -9,7 +9,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.colors import ListedColormap
-
+import tensorflow as tf
 
 def plot_learning_curves(model, X, y):
     from sklearn.metrics import mean_squared_error
@@ -64,3 +64,7 @@ def plot_predictions(regressors, X, y, axes, label=None, style="r-", data_style=
         plt.legend(loc="upper center", fontsize=16)
     plt.axis(axes)
     plt.show()
+
+
+def reset_graph():
+    tf.reset_default_graph()
