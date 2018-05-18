@@ -7,9 +7,10 @@
 """
 
 import numpy as np
+import tensorflow as tf
 from matplotlib import pyplot as plt
 from matplotlib.colors import ListedColormap
-import tensorflow as tf
+
 
 def plot_learning_curves(model, X, y):
     from sklearn.metrics import mean_squared_error
@@ -68,3 +69,8 @@ def plot_predictions(regressors, X, y, axes, label=None, style="r-", data_style=
 
 def reset_graph():
     tf.reset_default_graph()
+
+
+def get_device():
+    from tensorflow.python.client import device_lib
+    print(device_lib.list_local_devices())
