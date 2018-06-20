@@ -5,3 +5,6 @@
 config_global/my.py
 tf/tmp/*
 tf/*logs/*
+action/*
+.ipynb_checkpoints/
+t_*.py
