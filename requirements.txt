@@ -3,12 +3,18 @@ appnope==0.1.0
 astor==0.6.2
 backcall==0.1.0
 bleach==1.5.0
+boto==2.48.0
+boto3==1.7.47
+botocore==1.10.47
+bz2file==0.98
 certifi==2018.4.16
 chardet==3.0.4
 cycler==0.10.0
 decorator==4.3.0
+docutils==0.14
 entrypoints==0.2.3
 gast==0.2.0
+gensim==3.4.0
 grpcio==1.12.0
 h5py==2.8.0rc1
 html5lib==0.9999999
@@ -19,6 +25,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.2.1
 jedi==0.12.0
 Jinja2==2.10
+jmespath==0.9.3
 jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.3
@@ -33,6 +40,7 @@ matplotlib==2.2.2
 mistune==0.8.3
 nbconvert==5.3.1
 nbformat==4.4.0
+nltk==3.3
 notebook==5.5.0
 numpy==1.14.3
 pandas==0.23.0
@@ -52,6 +60,7 @@ PyYAML==3.12
 pyzmq==17.0.0
 qtconsole==4.3.1
 requests==2.19.0
+s3transfer==0.1.13
 scikit-learn==0.19.1
 scipy==1.1.0
 seaborn==0.8.1
@@ -59,6 +68,7 @@ Send2Trash==1.5.0
 simplegeneric==0.8.1
 six==1.11.0
 sklearn==0.0
+smart-open==1.5.7
 statsmodels==0.9.0
 tensorboard==1.8.0
 tensorflow==1.8.0
