@@ -9,3 +9,5 @@ action/*
 .ipynb_checkpoints/
 t_*.py
 *.json
+*.bin
+*.txt
