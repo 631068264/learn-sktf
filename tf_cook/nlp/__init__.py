@@ -5,6 +5,8 @@
 @time = 2018/6/25 14:32
 @annotation = ''
 """
+from collections import Counter
+
 """
 对于大文本，我们可以选择要保留多少个单词，并且通常保留最常用的单词，
 用零的索引标记其他所有内容。假设数字代表种类不是数字关系
@@ -16,3 +18,8 @@
 
 
 """
+c = Counter('aaaaaaabracadabrabb')
+
+print(c)
+
+print(c.most_common(3))
