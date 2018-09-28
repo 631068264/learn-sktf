@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits .mplot3d import Axes3D
 import matplotlib as mpl
+import statsmodels.api as sm
 
 def f(x, y):
     return np.sin(x) + 0.25 * x + np.sqrt(y) + 0.05 * y ** 2
@@ -49,7 +50,7 @@ matrix[:, 2] = y
 matrix[:, 1] = x
 matrix[:, 0] = 1
 
-import statsmodels.api as sm
+
 
 model = sm.OLS(f(x, y), matrix).fit()
 print(model.summary())
